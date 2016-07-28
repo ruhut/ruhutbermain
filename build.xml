@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Ruhutbermain Development" default="build">
+    <property name="project.srcdir">${basedir}</property>
+
+    <target name="build"
+      description="bikin folder">
+       <mkdir dir="${project.srcdir}/newfolder" />
+    </target>
+</project>
